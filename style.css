@@ -1,13 +1,20 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 body {
   background: url("./background.png");
 }
-#section {
+.cotainer {
+  width: 1000px;
+}
+#left__section {
+  width: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background: #bd9393;
 }
 .Title {
   text-align: center;
@@ -105,4 +112,13 @@ body {
 .post__title,
 .post__content {
   color: white;
+}
+#right__section {
+  width: 10%;
+  position: absolute;
+  top: 0px;
+  width: 10%;
+}
+.navbar {
+  background: #000000;
 }
