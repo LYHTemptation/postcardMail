@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 <body>
     <div class="container">
     <div class="Title"><h1>PostCard Mail</h1></div>
+    <div id="section">
     <div id="left__section">
         <div class="post__background1">
             <div class="post__card">
@@ -65,20 +67,51 @@
     </div>
 </div>
 </div>
+<div class="post__background6">
+    <div class="post__card">
+        <div class="post__hidden">
+        <img src="poster6.jpg" alt="poster1" class="img">
+        <div class="post__title">Post title
+            <div class="post__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo dolorum saepe impedit dolore, 
+                expedita consequuntur soluta nam quam aliquam mollitia sapiente ab. Pariatur temporibus facilis ducimus, autem nostrum ab!</div>
+        </div>
+    </div>
 </div>
-<div id="right__section">
+</div>
+    </div>
+    <div id="right__section">
     <div class="navbar__button">
-        <button>내게쓰기</button>
-        <button>메일보내기</button>
-        
-        <ul>
-            <li>전체메일</li>
-            <li>받은메일함</li>
-            <li>보낸메일함</li>
-            <li>임시보관함</li>
-            <li>내게쓴메일</li>
+        <button class="button__tome">내게쓰기</button>
+        <button class="button__toyou">메일보내기</button>
+    </div>
+    <div class="section__listmenu">
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item"><i class="fas fa-shipping-fast"></i>전체메일</li>
+            <li class="navbar__menu__item"><i class="fas fa-envelope-open"></i>받은메일함</li>
+            <li class="navbar__menu__item"><i class="fas fa-paper-plane"></i>보낸메일함</li>
+            <li class="navbar__menu__item"><i class="fas fa-envelope"></i>임시보관함</li>
+            <li class="navbar__menu__item"><i class="fas fa-male"></i><i class="fas fa-female"></i>내게쓴메일</li>
         </ul>
     </div>
+    <div class="section__mymail">
+        <h4>내 메일함</h4>
+    </div>
+    <div class="section__etcmail1">
+        <ul class="navbar__menu"> 
+            <li class="navbar__menu__item">프로모션</li>
+            <li class="navbar__menu__item">청구서</li>
+            <li class="navbar__menu__item">SNS</li>
+            <li class="navbar__menu__item">카페</li>
+        </ul>
+    </div>
+    <div class="section__etcmail2">
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item">스팸메일함</li>
+            <li class="navbar__menu__item">휴지통</li>
+            <li class="navbar__menu__item">외부메일 가져오기</li>
+        </ul>
+    </div>
+</div>
 </div>
 </div>
 </html>

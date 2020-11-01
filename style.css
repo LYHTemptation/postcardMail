@@ -3,21 +3,23 @@
   margin: 0px;
   padding: 0px;
 }
-body {
-  background: url("./background.png");
-}
-.cotainer {
+#sectiton {
+  position: relative;
   width: 1000px;
 }
 #left__section {
-  width: 90%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: #bd9393;
+  justify-content: center;
 }
 .Title {
-  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  text-align: left;
+  margin: 10px;
 }
 .post__background1 {
   position: relative;
@@ -54,6 +56,14 @@ body {
 .post__background5 {
   position: relative;
   background: url("poster5.jpg");
+  background-size: cover;
+  width: 450px;
+  height: 500px;
+  margin: 15px;
+}
+.post__background6 {
+  position: relative;
+  background: url("poster6.jpg");
   background-size: cover;
   width: 450px;
   height: 500px;
@@ -114,11 +124,34 @@ body {
   color: white;
 }
 #right__section {
-  width: 10%;
   position: absolute;
-  top: 0px;
-  width: 10%;
+  top: 62px;
+  right: 0px;
+  width: 24%;
+  height: auto;
+  /* background: #7e91cf; */
 }
-.navbar {
-  background: #000000;
+.navbar__button {
+  margin: 20px;
+}
+.button__tome {
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid;
+}
+.button__toyou {
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid;
+}
+ul {
+  list-style: none;
+}
+.navbar__menu__item {
+  margin: 10px;
+}
+.section__mymail {
+  margin: 30px;
 }
