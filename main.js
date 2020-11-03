@@ -4,3 +4,4 @@ clickPost.addEventListener('click',()=>{
     console.log('click');
     
 });
+11
